@@ -32,17 +32,20 @@ body{
     margin: 15px 30px;
 }
 
-.context button{
+.context a.speacial{
+    position: relative;
+    z-index: 100;
     color: white;
     padding: 15px 32px;
     text-align: center;
     background-color: rgb(0, 27, 117);
-    left: 50px;
+    left: 20px;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 20px;
 }
+
 
 
 .area{
@@ -168,5 +171,3 @@ body{
     }
 
 }
-
-
