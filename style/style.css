@@ -13,15 +13,17 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:25vh;
+
 
 }
+
 
 .context h1{
     text-align: center;
     color: #fff;
     font-size: 50px;
     margin: 10px 30px;
+    margin-top: 50px;
 
 }
 
@@ -30,7 +32,23 @@ body{
     color: #fff;
     font-size: 30px;
     margin: 15px 30px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
+.context li{
+    color: #fff;
+    font-size: 30px;
+    margin: 15px 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    position: relative;
+    z-index: 150;
+}
+
 
 .context a.speacial{
     position: relative;
@@ -39,9 +57,8 @@ body{
     padding: 15px 32px;
     text-align: center;
     background-color: rgb(0, 27, 117);
-    left: 20px;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 25%;
     margin-left: 30px;
     margin-bottom: 20px;
 }
@@ -52,7 +69,7 @@ body{
     background: #4e54c8;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
-    height:100vh;
+    height: 100vh;
 
 
 }
@@ -74,7 +91,7 @@ body{
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    bottom: -150px;
+    bottom: -100vh;
 
 }
 
@@ -173,8 +190,12 @@ body{
 }
 
 .topnav {
+    position: relative;
+    z-index: 100;
     overflow: hidden;
     background-color:rgba(117, 0, 45, 0.404);
+    margin-top: 0px;
+
 
 }
 
